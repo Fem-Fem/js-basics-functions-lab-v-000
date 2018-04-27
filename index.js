@@ -36,7 +36,7 @@ function calculatesFarePrice(start, destination) {
     return 25
   }
   else {
-    return .02 * answer
+    return .02 * (answer-400)
   }
 
 }
