@@ -27,7 +27,7 @@ function calculatesFarePrice(start, destination) {
   answer = distanceTravelledInFeet (start, destination)
   // return answer
   switch (answer) {
-    case answer <= 400:
+    case (answer <= 400):
       return 0
     case answer > 2500:
       return "Cannot travel that far"
