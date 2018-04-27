@@ -32,8 +32,8 @@ function calculatesFarePrice(start, destination) {
       return "Cannot travel that far"
     case answer >= 200:
       return 25
-    default:
-      return answer * 2
+    // default:
+    //   return answer * 2
   }
 
 }
