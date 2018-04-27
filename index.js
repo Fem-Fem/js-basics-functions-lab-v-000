@@ -30,7 +30,7 @@ function calculatesFarePrice(start, destination) {
     return 0
   }
   else if (answer > 2500) {
-    return "Cannot travel that far"
+    return "cannot travel that far"
   }
   else if (answer >= 2000) {
     return 25
