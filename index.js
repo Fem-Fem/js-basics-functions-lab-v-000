@@ -6,5 +6,5 @@ function distanceFromHqInBlocks (blocks) {
   }
   else {
     return answer
-    }
+  }
 }
