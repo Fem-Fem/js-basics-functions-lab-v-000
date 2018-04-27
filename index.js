@@ -8,3 +8,7 @@ function distanceFromHqInBlocks (blocks) {
     return answer
   }
 }
+
+function distanceFromHqInFeet (blocks) {
+
+}
